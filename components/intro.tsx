@@ -53,15 +53,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hello, My name is <span className="font-bold">Adolfo Ramírez</span>. I am a <span className="font-bold">frontend developer</span> with <span className="font-bold">4 years of experience</span>. I enjoy building sites with <span className="font-bold">Laravel and React (Next.js)</span>.
+        Hello, My name is <span className="font-bold">Adolfo Ramírez</span>. I am a <span className="font-bold">full-stack developer</span> with <span className="font-bold">4 years of experience</span>. I enjoy building sites with <span className="font-bold">Laravel and React (Next.js)</span>.
       </motion.h1>
 
       <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.1,
-        }}
+        transition={{ delay: 0.1 }}
       >
         <Link
           href="#contact" 
