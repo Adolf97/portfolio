@@ -83,7 +83,7 @@ export default function Intro() {
         </Link>
 
         <a 
-          className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack'
+          className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
           href="/CV.pdf" 
           download={true}
         >
@@ -94,14 +94,14 @@ export default function Intro() {
         <a 
           href="https://www.linkedin.com/in/adolfo-ram%C3%ADrez-31b733179/"
           target='_blank'
-          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition' >
+          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition dark:bg-white/10 dark:text-white/60'>
             <BsLinkedin />
         </a>
 
         <a 
           href="https://github.com/Adolf97"
           target='_blank'
-          className='bg-white p-3 text-gray-700 flex items-center gap-2 rounded-full text-[1.38rem] focus:scale-110 hover:scale-110 active:scale-105 transition' >
+          className='bg-white p-3 text-gray-700 flex items-center gap-2 rounded-full text-[1.38rem] focus:scale-110 hover:scale-110 active:scale-105 transition dark:bg-white/10 dark:text-white/60'>
             <FaGithubSquare />
         </a>
       </motion.div>
