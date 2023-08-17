@@ -76,6 +76,7 @@ export const projectsData = [
       "I worked as a frontend developer on this web page for 2 months. The company wanted a simple but good-looking web site, so I decided to use Html, CSS and Vanilla JS.",
     tags: ["Html", "CSS", "Vanilla JS", "EmailJS"],
     imageUrl: RDQWebPage,
+    url: "http://rdqmexico.com/",
   },
   {
     title: "Kaijuu No. 8 - Project",
@@ -83,6 +84,7 @@ export const projectsData = [
       "Kaijuu No.8 is one of my favorite mangas, so I decided to make my own fansite to encourage more people to read this amazing manga, which is about to have an anime.",
     tags: ["React", "TypeScript", "React Router DOM", "Bootstrap"],
     imageUrl: KaijuuPage,
+    url: "https://github.com/Adolf97/kaijuu8_page_react",
   },
   {
     title: "CRUD de Mangas",
@@ -90,6 +92,7 @@ export const projectsData = [
       "As a frequent manga reader, I want to know how many and what mangas I've read, so I decided to create my own CRUD for mangas",
     tags: ["PHP", "MySQL", "Laravel", "Bootstrap", "React"],
     imageUrl: CrudMangas,
+    url: "https://github.com/Adolf97/crud_mangas_laravel",
   },
 ] as const;
 
