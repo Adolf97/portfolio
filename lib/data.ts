@@ -1,8 +1,9 @@
 import React from "react";
 import { RiComputerLine } from 'react-icons/ri';
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { CiMedicalCross } from "react-icons/ci";
+import { MdOutlineEmail } from "react-icons/md";
+import { BsBank } from "react-icons/bs";
 import RDQWebPage from "@/public/rdqWebPage.png";
 import KaijuuPage from "@/public/kaijuu8Project.png";
 import CrudMangas from "@/public/crudMangas.png";
@@ -44,28 +45,36 @@ export const experiencesData = [
     date: "2019-2020",
   },
   {
-    title: "Sales Engineer",
+    title: "Sales Engineer at RDQ",
     location: "Querétaro, Qro.",
     description:
       "This job was not centered on programming, but in industrial products sales, but a year ago I developed the current company web page",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2023",
+    date: "2021/08 - 2023/05",
   },
   {
-    title: "IBM: Python for Data Science",
-    location: "Online",
+    title: "Full Stack Developer and Data Scientist at ISSEG",
+    location: "Guanajuato, Gto.",
     description:
-      "In order to learn data science, I enrolled in this course offered by IBM. I learned to program with python and learned to use libraries such as Pandas and Numpy.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
+      "I worked as a full stack developer and data scientist in a government organization called ISSEG. In order to reach the ISO 9001:2015 standard, I developed a QMS (Quality Management System) to control the quality of the different processes.",
+    icon: React.createElement(CiMedicalCross),
+    date: "2023/11 - 2024/06",
   },
   {
-    title: "Frontend Developer",
-    location: "Guanajuato, Gto",
+    title: "Full Stack Developer at AdPunto",
+    location: "CDMX.",
     description:
-      "I'm currently working as a frontend developer for an open source organization, called UpVent Technologies. My stack includes React, Next.js, TypeScript, Tailwind/Bootstrap and Laravel. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+      "I worked as a full stack developer in a company called AdPunto. In this company I helped to upgrade the old version of the platform to a crm software.",
+    icon: React.createElement(MdOutlineEmail),
+    date: "2024/06 - 2024/09",
+  },
+  {
+    title: "Frontend Developer at BBVA",
+    location: "CDMX.",
+    description:
+      "This is my current workplace. Here, I'm helping to solve bugs in the main application of the bank, and also, developing new features using Cells and LitElement.",
+    icon: React.createElement(BsBank),
+    date: "2024/10 - Present",
   },
 ] as const;
 

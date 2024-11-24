@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import ProfilePic from '@/public/personal-photo.jpg';
+import ProfilePic from '@/public/personal-photo-2.jpg';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight } from 'react-icons/bs';
